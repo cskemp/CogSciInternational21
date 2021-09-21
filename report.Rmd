@@ -1,0 +1,82 @@
+---
+title: "Meeting report"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 10px;">
+
+### 2021 Affinity Group Meeting
+
+On July 27, 2021 we held an affinity group meeting as part of the annual meeting of the Cognitive Science society.  The Cognitive Science society is an international society but North America is currently better represented than other parts of the world. The purpose of our meeting was to discuss ideas about how to support Cognitive Science as a discipline around the world
+
+
+35 people registered in advance and the majority were early career researchers  (12% undergraduates, 42% PhD students, 12% Postdoctoral fellows). 18% of the people who registered were faculty members. A range of countries were represented, and representation from India was especially strong (40% of registrations indicated a connection with India).
+On the day 37 separate participants joined the Zoom room (not including the organizers). We estimate that a subset of 25 or so participated actively -- for example, our session included 4 polls, and roughly 20 people responded to each poll.  
+
+The session was organized around 4 themes, and the slides used to introduce each theme are available [here]( slides.html ). We will not attempt to summarize all of the many important points that were raised in the discussions of each theme. Instead, we focus on candidate action items that emerged from the meeting, and provide a numbered list of these items. These items range from short-term goals that can be addressed this year to long-term goals for consideration in the future.
+
+#### International Students
+
+Our discussion focused on barriers that international students face and ways to reduce some of these barriers. Students would like to learn about possible opportunities outside their own home countries, and to be able to access resources from a range of disciplines relevant to Cognitive Science. A natural first step towards these goals is to publicize some of the resources that already exist.
+
+1. Develop a webpage (perhaps hosted on the CSS website) that lists resources that may be useful to international students. This page might include a list of freely available textbooks and tutorials (one participant from India mentioned that coming across a textbook by Gazzaniga was transformative for her). The page could also list summer schools such as the International Summer school run by the Bulgarian Center for Cognitive Science, and online courses offered through remotestudentexchange.org and other providers (e.g Coursera).  We should also update and expand the list of Cognitive Science programs that currently appears on the CSS website -- one participant mentioned that this list was valuable for her.
+
+Some people also mentioned that there are limited opportunities for mentorship and research training in their home countries. To address this in part, we might
+
+2. Develop a system for pairing international students with labs that are willing for these students to participate in lab meetings. This approach has been successfully pursued by researchers from the Human Sentence Processing community, and we might be able to emulate their setup.
+
+3. Develop a mentorship program that targets students from underrepresented areas. The society has already taken some steps in this direction and we might be able to build on previous efforts.
+
+4. Develop summer internship programs targeting international students and funding mechanisms to allow such students to attend these summer internship programs.
+
+#### International Research
+
+Our discussion focused on barriers to international collaboration and ways to build infrastructure to support collaboration across countries.
+
+4. One participant asked about a good informal channel (e.g. mailing list or Slack channel) for learning about multi-country research projects. As far as we know nothing along these lines exists but we could consider setting something up.
+
+5. IRB applications for multi-country projects can be difficult. We could potentially provide a central resource with tips about preparing these applications.
+
+One participant mentioned the feeling of being on the periphery, and far away from the places where new developments in the field are being introduced. We think that many of us have a similar feeling, but that being on the periphery also provides some opportunities -- e.g. those of us on the periphery may be able to ask different questions and to collect data that can't be obtained elsewhere. We could perhaps
+
+6. Compile a list of projects that simply couldn't have been done at a central location. Projects involving native speakers of a certain language are a natural example, but we'd also aim to include some projects that aren't related to language. The list could potentially go on the International part of the CSS website, and seeing this list might inspire new projects along similar lines. 
+
+7. Develop cognitive multi-lab studies or accelerators such as the Psychological Science accelerator.
+
+
+####  International Publishing
+
+The peer review process is dominated by people from a small handful of countries, and our discussion focused on ways of broadening the set of reviewers. Two possibilities are
+
+7. Develop a virtual workshop on reviewing that is open to international researchers, especially ECRs. In most places there is no systematic training in reviewing, which may make it especially difficult for international researchers to start out as reviewers.
+
+8. Develop a public database of researchers from different countries that editors can potentially consult when looking for reviewers.
+
+
+####   Local Events and Organizations
+
+Our discussion focused on possible benefits of introducing CSS chapters in places where no local society already exists.  We could
+
+9. Identify a couple of countries that have a relatively high level of interest in Cognitive Science but no local society, and explore the possibility of setting up chapters in these countries. Among other things these chapters could potentially organize tutorials, workshops, and summer schools.
+
+We also talked about ways to make the current conference model work as well as possible for international participants.
+
+10. Allowing virtual participation is important, and student fee waivers are also valuable. Both elements were present for CogSci 2021 and we should try to make sure they continue in the future.
+
+11. Create a resource-sharing site where society members can post upcoming digital events like colloquia, seminars, lab meetings that are open to international participation.
+
+
+</div>
+
+

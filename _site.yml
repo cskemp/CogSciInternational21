@@ -1,0 +1,13 @@
+name: "International Cognitive Science Group"
+navbar:
+  title: "International Cognitive Science Group"
+  left:
+    - text: "Overview"
+      href: index.html
+    - text: "Report"
+      href: report.html
+    - text: "Slides"
+      href: slides.html
+exclude: ["docs"]
+
+

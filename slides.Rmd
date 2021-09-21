@@ -1,0 +1,28 @@
+---
+title: "Meeting slides"
+output: html_document
+---
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 10px;">
+
+Our meeting was organized around 4 themes, and the slides used to introduce each theme are available below.
+
+* [Introduction & Local Events]( resources/CogSciInternational_intro.pptx )
+* [International Students]( resources/CogSciInternational_students.pptx )
+* [Research]( resources/CogSciInternational_research.pptx )
+* [Publishing]( resources/CogSciInternational_publishing.pptx	)
+
+</div>
+
+

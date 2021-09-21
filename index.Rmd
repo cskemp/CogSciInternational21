@@ -1,0 +1,33 @@
+---
+title: "International Cognitive Science Group"
+output: html_document
+---
+
+<style type="text/css">
+
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+
+### 2021 Affinity Group Meeting
+
+#### Organizers:  [Abhilasha Kumar]( http://abhilashak.weebly.com/ ), [Yoed Kenett]( https://cognitive-complexity.net.technion.ac.il/people/ ), [Vera Kempe]( https://www.abertay.ac.uk/staff-search/professor-vera-kempe/ ) & [Charles Kemp]( http://charleskemp.com )
+
+<div class="row" style="padding-top: 10px;">
+<div class="col-sm-12">
+
+On July 27, 2021 we held an affinity group meeting as part of the [Annual Meeting of the Cognitive Science Society]( https://cognitivesciencesociety.org/cogsci-2021/ ).  The [ Cognitive Science Society ](https://cognitivesciencesociety.org/ ) is an international society but North America is currently better represented than other parts of the world. The purpose of our meeting was to discuss ideas about how to support Cognitive Science as a discipline around the world
+
+A [report](report.html) summarizing the meeting is available, along with [slides](slides.html) used in the session. 
+
+Please get in touch with any of the organizers if you have ideas to share.
+
+</div>
+</div>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Meeting report</title>
+
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">International Cognitive Science Group</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Overview</a>
+</li>
+<li>
+  <a href="report.html">Report</a>
+</li>
+<li>
+  <a href="slides.html">Slides</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Meeting report</h1>
+
+</div>
+
+
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+<div id="affinity-group-meeting" class="section level3 row" style="padding-top: 10px;">
+<h3>2021 Affinity Group Meeting</h3>
+<p>On July 27, 2021 we held an affinity group meeting as part of the annual meeting of the Cognitive Science society. The Cognitive Science society is an international society but North America is currently better represented than other parts of the world. The purpose of our meeting was to discuss ideas about how to support Cognitive Science as a discipline around the world</p>
+<p>35 people registered in advance and the majority were early career researchers (12% undergraduates, 42% PhD students, 12% Postdoctoral fellows). 18% of the people who registered were faculty members. A range of countries were represented, and representation from India was especially strong (40% of registrations indicated a connection with India). On the day 37 separate participants joined the Zoom room (not including the organizers). We estimate that a subset of 25 or so participated actively – for example, our session included 4 polls, and roughly 20 people responded to each poll.</p>
+<p>The session was organized around 4 themes, and the slides used to introduce each theme are available <a href="slides.html">here</a>. We will not attempt to summarize all of the many important points that were raised in the discussions of each theme. Instead, we focus on candidate action items that emerged from the meeting, and provide a numbered list of these items. These items range from short-term goals that can be addressed this year to long-term goals for consideration in the future.</p>
+<div id="international-students" class="section level4">
+<h4>International Students</h4>
+<p>Our discussion focused on barriers that international students face and ways to reduce some of these barriers. Students would like to learn about possible opportunities outside their own home countries, and to be able to access resources from a range of disciplines relevant to Cognitive Science. A natural first step towards these goals is to publicize some of the resources that already exist.</p>
+<ol style="list-style-type: decimal">
+<li>Develop a webpage (perhaps hosted on the CSS website) that lists resources that may be useful to international students. This page might include a list of freely available textbooks and tutorials (one participant from India mentioned that coming across a textbook by Gazzaniga was transformative for her). The page could also list summer schools such as the International Summer school run by the Bulgarian Center for Cognitive Science, and online courses offered through remotestudentexchange.org and other providers (e.g Coursera). We should also update and expand the list of Cognitive Science programs that currently appears on the CSS website – one participant mentioned that this list was valuable for her.</li>
+</ol>
+<p>Some people also mentioned that there are limited opportunities for mentorship and research training in their home countries. To address this in part, we might</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Develop a system for pairing international students with labs that are willing for these students to participate in lab meetings. This approach has been successfully pursued by researchers from the Human Sentence Processing community, and we might be able to emulate their setup.</p></li>
+<li><p>Develop a mentorship program that targets students from underrepresented areas. The society has already taken some steps in this direction and we might be able to build on previous efforts.</p></li>
+<li><p>Develop summer internship programs targeting international students and funding mechanisms to allow such students to attend these summer internship programs.</p></li>
+</ol>
+</div>
+<div id="international-research" class="section level4">
+<h4>International Research</h4>
+<p>Our discussion focused on barriers to international collaboration and ways to build infrastructure to support collaboration across countries.</p>
+<ol start="4" style="list-style-type: decimal">
+<li><p>One participant asked about a good informal channel (e.g. mailing list or Slack channel) for learning about multi-country research projects. As far as we know nothing along these lines exists but we could consider setting something up.</p></li>
+<li><p>IRB applications for multi-country projects can be difficult. We could potentially provide a central resource with tips about preparing these applications.</p></li>
+</ol>
+<p>One participant mentioned the feeling of being on the periphery, and far away from the places where new developments in the field are being introduced. We think that many of us have a similar feeling, but that being on the periphery also provides some opportunities – e.g. those of us on the periphery may be able to ask different questions and to collect data that can’t be obtained elsewhere. We could perhaps</p>
+<ol start="6" style="list-style-type: decimal">
+<li><p>Compile a list of projects that simply couldn’t have been done at a central location. Projects involving native speakers of a certain language are a natural example, but we’d also aim to include some projects that aren’t related to language. The list could potentially go on the International part of the CSS website, and seeing this list might inspire new projects along similar lines.</p></li>
+<li><p>Develop cognitive multi-lab studies or accelerators such as the Psychological Science accelerator.</p></li>
+</ol>
+</div>
+<div id="international-publishing" class="section level4">
+<h4>International Publishing</h4>
+<p>The peer review process is dominated by people from a small handful of countries, and our discussion focused on ways of broadening the set of reviewers. Two possibilities are</p>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Develop a virtual workshop on reviewing that is open to international researchers, especially ECRs. In most places there is no systematic training in reviewing, which may make it especially difficult for international researchers to start out as reviewers.</p></li>
+<li><p>Develop a public database of researchers from different countries that editors can potentially consult when looking for reviewers.</p></li>
+</ol>
+</div>
+<div id="local-events-and-organizations" class="section level4">
+<h4>Local Events and Organizations</h4>
+<p>Our discussion focused on possible benefits of introducing CSS chapters in places where no local society already exists. We could</p>
+<ol start="9" style="list-style-type: decimal">
+<li>Identify a couple of countries that have a relatively high level of interest in Cognitive Science but no local society, and explore the possibility of setting up chapters in these countries. Among other things these chapters could potentially organize tutorials, workshops, and summer schools.</li>
+</ol>
+<p>We also talked about ways to make the current conference model work as well as possible for international participants.</p>
+<ol start="10" style="list-style-type: decimal">
+<li><p>Allowing virtual participation is important, and student fee waivers are also valuable. Both elements were present for CogSci 2021 and we should try to make sure they continue in the future.</p></li>
+<li><p>Create a resource-sharing site where society members can post upcoming digital events like colloquia, seminars, lab meetings that are open to international participation.</p></li>
+</ol>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
